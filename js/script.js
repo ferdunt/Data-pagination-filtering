@@ -76,10 +76,9 @@ function addPagination(list) {
          e.target.classList.add('active');
 
          const currentPage = e.target.innerHTML;
-         // console.log(e.target.innerHTML);
 
          // 💬 Call 'showPage' function to refresh
-         showPage(data, currentPage);
+         showPage(list, currentPage);
       }
 
    });
